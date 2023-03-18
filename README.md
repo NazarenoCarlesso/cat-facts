@@ -10,3 +10,8 @@
 - Recupera un hecho aleatorio de gatos de la primera API
 - Recupera la primera palabra del hecho
 - Muestra una imagen de un gato con la primera palabra
+- //
+- Hacer un boton para refrescar la informacion
+- Separar la logica de los servicios
+- Realizar un custom hook para traer la imagen
+- Realizar un custom hook para traer el hecho
