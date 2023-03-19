@@ -25,3 +25,6 @@ dist-ssr
 
 # Package
 package-lock.json
+/test-results/
+/playwright-report/
+/playwright/.cache/
