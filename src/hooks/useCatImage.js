@@ -8,7 +8,7 @@ export function useCatImage ({ fact }) {
   useEffect(() => {
     if (!fact) return
 
-    const words = fact.split(' ', 3).join(' ')
+    const words = fact.split(' ', 7).join(' ')
 
     getRandomCat(words).then(newImage => setImage(newImage))
   }, [fact])
