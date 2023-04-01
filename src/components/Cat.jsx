@@ -8,12 +8,12 @@ export default function Cat () {
   // CatImage custom hook
   const imageUrl = useCatImage({ fact })
   return (
-    <div>
-      {fact && <p>{fact}</p>}
+    <div className='cat'>
+      {fact && <p className='fact'>{fact}</p>}
       {
         imageUrl
           ? <img src={`https://cataas.com/${imageUrl}`} alt={`Image extracted using the three first words for ${fact}`} />
-          : <div style={{ height: 600 }} />
+          : <div className='loaderContainer'><div className='loader' /></div>
       }
     </div>
   )
